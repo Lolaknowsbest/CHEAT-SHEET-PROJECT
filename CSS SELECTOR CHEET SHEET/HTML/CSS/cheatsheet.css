@@ -1,0 +1,15 @@
+
+html {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    background-color: gainsboro;
+}
+
+.intro, td {
+    text-align: center;
+}

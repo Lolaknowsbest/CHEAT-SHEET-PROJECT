@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>CSS SELECTOR AND SPECIFICITY CHEAT SHEET</title>
+  <link rel="stylesheet" type="text/css" href="CSS/cheatsheet.css" />
+  </head>
+
+<body>
+  <article class="intro">
+  <h1>CSS SELECTORS CHEAT SHEET</h1> 
+  <p><strong>Type of selectors</strong> mostly used in CSS and how to use them.</p>
+  </article>
+  <article>
+
+    <table border="3" bordercolor="#3399ff" >
+
+      <thead>
+    <tr bgcolor="99ff66">
+      <th>Selector Name</th>
+      <th>HTML Description</th>
+      <th>CSS Description</th>
+    
+      </tr>
+      </thead>
+
+    <tbody>
+
+      <tr>
+        <td>Universal Selector</td>
+        <td>This "*" selector selects all elements</td>
+        <td> * { }</td>
+
+        </tr>
+
+        <tr>
+          <td>Class Selector</td>
+          <td>The .class selector selects elements with a specific class attribute e.g. <br>
+        <code>  <.. a class="x"> </code>
+          </td>
+          <td> .a { }</td>
+        
+
+          </tr>
+      <tr>
+        <td>Tag Selector</td>
+        <td> <code>a</code> </td>
+        <td> <code>a { } </code> </td>
+      </tr>
+
+      <tr>
+        <td>ID Selector</td>
+        <td> <code> <.. id="a"/> </code> </td>
+        <td> <code> #a </code></td>
+        </tr>
+
+        <tr>
+          <td>Child Selector</td>
+          <td> The child selector selects all elements that are direct children of a specified element.<br> This e.g selects all "b" elements that are children of  "a" element</td>
+          <td><code> a > b</code></td>
+          </tr>
+
+          <tr>
+            <td>Descendent Selector</td>
+            <td>The descendant selector matches all elements that are descendants of a specified element.<br>
+The following example selects all "c" elements inside "a" elements</td>
+            <td> a c { }</td>
+            </tr>
+
+            <tr>
+              <td>Adjacent Sibling Selector</td>
+              <td>Adjacent Sibling Selector (+)<br>
+The adjacent sibling selector is used to select an element that is directly after another specific element.<br>
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".<br>
+The following example selects the first "d" element that are placed immediately after "a" elements</td>
+              <td> a + d { }</td>
+
+            <tr>
+              <td>General Sibling Combinator</td>
+              <td>The general sibling selector selects all elements that are siblings of a specified element <br>
+              Must be children of the same parent element.
+              </td>
+              <td> a ~ b </td>
+
+              </tr>
+      <tbody>
+      </table>
+    </article>
+
+    <article>
+      <p> These are just a few examples of common selctors used to style and format elements in css</p>
+      </article>
+
+
+    </body>
+  </html>
